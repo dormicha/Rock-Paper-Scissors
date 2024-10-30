@@ -40,6 +40,7 @@ docker build -t your-dockerhub-username/rock-paper-scissors:latest .
 Push the Docker Image
 docker push your-dockerhub-username/rock-paper-scissors:latest
 Deploy to Kubernetes
+run aws configure on your cli
 eksctl create cluster --name rock-paper-scissors --region us-east-1
 Install Nginx Ingress Controller by this command :
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.11.1/deploy/static/provider/aws/deploy.yaml
