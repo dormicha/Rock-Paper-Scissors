@@ -65,3 +65,5 @@ jobs:
         git add helm/rock-paper-scissors-chart/values.yaml
         git commit -m "Update tag in Helm chart"
         git push
+	
+#runing is over 
