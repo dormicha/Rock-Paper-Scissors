@@ -16,6 +16,7 @@ This repository contains the implementation of a Rock-Paper-Scissors game, along
 The Rock-Paper-Scissors game is a simple implementation of the classic hand game. This repository includes:
 - An Html CSS and JavaScript 
 - A Dockerfile to containerize the application.
+- deployment on EKS Cluster on AWS include Nginx ingress controller .
 - Helm charts for deploying the application to a Kubernetes cluster.
 - GitHub Actions workflows for continuous integration and deployment.
 - ArgoCD for Continuous Delivery
