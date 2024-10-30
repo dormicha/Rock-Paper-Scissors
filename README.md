@@ -9,7 +9,7 @@ This repository contains the implementation of a Rock-Paper-Scissors game, along
 - [Usage](#usage)
 - [CI/CD Pipeline](#cicd-pipeline)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
