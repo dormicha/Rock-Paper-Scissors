@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rock-paper-scissors
+  labels:
+    app: rock-paper-scissors
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: rock-paper-scissors
+  template:
+    metadata:
+      labels:
+        app: rock-paper-scissors
+    spec:
+      containers:
+      - name: rock-paper-scissors
+        image: dormicha/rock-paper-scissors:{{ .Values.image.tag }}
+        ports:
+        - containerPort: 80
